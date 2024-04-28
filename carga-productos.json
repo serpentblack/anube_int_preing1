@@ -1,0 +1,73 @@
+{
+    "productos": [{
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "N": "1"
+                    },
+                    "nombre": {
+                        "S": "Producto 1"
+                    },
+                    "categoria": {
+                        "S": "ceramica"
+                    },
+                    "desripcion": {
+                        "S": "Lorem ipsum dolor sit amet consectetur"
+                    },
+                    "imagen": {
+                        "S": "http://categoria1/producto1/producto1.png"
+                    },
+                    "precio": {
+                        "N": "55.000"
+                    }
+                }
+            }
+        }, {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "N": "2"
+                    },
+                    "nombre": {
+                        "S": "Producto 2"
+                    },
+                    "categoria": {
+                        "S": "madera"
+                    },
+                    "desripcion": {
+                        "S": "Lorem ipsum dolor sit amet consectetur"
+                    },
+                    "imagen": {
+                        "S": "http://categoria2/producto2/producto2.png"
+                    },
+                    "precio": {
+                        "N": "45.000"
+                    }
+                }
+            }
+        }, {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "N": "3"
+                    },
+                    "nombre": {
+                        "S": "Producto 3"
+                    },
+                    "categoria": {
+                        "S": "lana"
+                    },
+                    "desripcion": {
+                        "S": "Lorem ipsum dolor sit amet consectetur"
+                    },
+                    "imagen": {
+                        "S": "http://categoria3/producto3/producto3.png"
+                    },
+                    "precio": {
+						"N": "85.000"
+                    }
+                }
+            }
+        }
+    ]
+}

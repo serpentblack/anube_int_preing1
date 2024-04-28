@@ -1,0 +1,39 @@
+Lista usuarios
+
+aws iam list-users
+
+Listar tablas
+
+aws dynamodb list-tables
+
+Crea una tabla usando el wizard
+
+aws dynamodb wizard new-table
+
+Consultar datos de la tabla 
+
+aws dynamodb scan --table-name artesanos
+aws dynamodb scan --table-name productos
+
+Borrar una tabla
+
+aws dynamodb delete-table --table-name producto
+aws dynamodb delete-table --table-name productos
+aws dynamodb delete-table --table-name productos2
+
+Listar politicas
+
+aws iam list-attached-user-policies --user-name <tu usuario>
+
+Ejemplo
+aws iam list-attached-user-policies --user-name dynamodbroot
+
+Cargar archivo json
+
+Ubica el archivo carga-productos.json en el mismo directorio en el que te encuentras en la consola
+
+aws dynamodb batch-write-item --request-items file://carga-productos.json
+	
+
+
+
